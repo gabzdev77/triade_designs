@@ -22,7 +22,7 @@ document.getElementById('form-discord').addEventListener('submit', function(e) {
 **Mensagem Adicional:** ${mensagem || "Nenhuma"}`
   };
 
-  fetch('https://discordapp.com/api/webhooks/1383501587351076884/zW0ziIP4umhw4Njts8qcsR61niZ51YFXH5WBxRFrWYQSm5kCbeisqcVYVynkirZf4VPG', {
+  fetch('https://discordapp.com/api/webhooks/1386534142589538406/Diqkm6p7r2oX8u6ghXfOqKrUlQ3gWJKNQiBEyjOl79fzcWMJaNKEyYy2csw0eTtUS9bj', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(conteudo)
